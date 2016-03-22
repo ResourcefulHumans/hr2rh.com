@@ -1,0 +1,59 @@
+# Site wide configuration
+
+title: The Way
+description: > #
+  The Way of Resourceful Humans is the most thoughtful framework to kill Complexity and Complicatedness
+  in your Enterprise. Turn Peer Feedback and entrepreneurial work of Human Resources into Resourceful Humans. Simple.
+  Social. Realtime. Use our work (self-) managemanent tools like staRHs, netwoRHk and caRHds.
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale: us
+url: http://hr2rh.com
+
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+
+
+# Octopress configuration
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: article
+page_layout: article
+
+# Format titles with titlecase?
+titlecase: true
+
+
+# Site owner
+owner:
+  name: Resourceful Humans
+  email: info@resourceful-humans.com
+  twitter: RH_Way
+  google:
+    ad-client:
+    ad-slot:
+  bio: > #
+    [The Way of Resourceful Humans](http://resourceful-humans.com/) is the most thoughtful framework to kill Complexity
+    and Complicatedness in your Enterprise. Turn Peer Feedback and entrepreneurial work of Human Resources into
+    Resourceful Humans. Simple. Social. Realtime. Use our work (self-) managemanent tools like staRHs, netwoRHk and
+    caRHds.
+  url: http://www.resourceful-humans.com/
+  avatar: rh-square.png # 160x160 px image for author byline
+  disqus-shortname:
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
