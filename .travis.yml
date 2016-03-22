@@ -22,7 +22,7 @@ script:
   - jekyll b
 
 after_success:
-  - cd buil_site
+  - cd _site
   - git init
   - git config user.name "Travis CI"
   - git config user.email "jarvis@resourceful-humans.com"
