@@ -12,9 +12,6 @@ tags:
 - HR
 - personalwesen
 - selbst-organisation
-image:
-  teaser: 1434995224-deutschland-brasilien-lBFbd8o7Qef.jpg
-  feature: 1434995224-deutschland-brasilien-lBFbd8o7Qef.jpg
 permalink: demokratie-wollen-koennen-duerfen
 ---
 
