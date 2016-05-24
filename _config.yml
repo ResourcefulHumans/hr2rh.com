@@ -6,7 +6,7 @@ description: > #
   in your Enterprise. Turn Peer Feedback and entrepreneurial work of Human Resources into Resourceful Humans. Simple.
   Social. Realtime. Use our work (self-) managemanent tools like staRHs, netwoRHk and caRHds.
 logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+teaser: teaser.jpg # 400x250 px default teaser image used in image archive grid
 locale: us
 url: http://hr2rh.com
 
