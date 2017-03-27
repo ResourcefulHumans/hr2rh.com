@@ -1,17 +1,17 @@
-# Skinny Bones Jekyll Starter
+# Source code for hr2rh.com
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+The website was initially hosted on a one.com WordPress, but has been converted to a Jekyll based website using the [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) theme.
 
-I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
+## Live
 
-![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
+:earth_africa: <http://hr2rh.com/>
 
----
+### Deployment
 
-## Notable Features
+:rocket: Deployment for this package is automated via [Travis CI](https://github.com/ResourcefulHumans/hr2rh.com/blob/master/.travis.yml). **Every commit will trigger a deploy.**
 
-* Jekyll 3.x and GitHub Pages compatible.
-* Stylesheet built using Sass.
-* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
-* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
-* And more.
+If Jekyll successfully builds the web page, it will be force pushed to the `gh-pages` branch of this repository, which makes it available via [GitHub's free website hosting service](https://pages.github.com/).
+
+The credentials for force pushing are provided via the environment variable `GH_TOKEN` [in Travis](https://travis-ci.org/ResourcefulHumans/hr2rh.com/settings). New tokens can be created [via the GitHub website](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/), having at least `repo` scope.
+
+The DNS settings for the domain are managed via [DomainDiscount24](https://login.domaindiscount24.com/de/domain/config/index/domain/hr2rh.com).
