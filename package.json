@@ -11,7 +11,7 @@
     "grunt-contrib-jshint": "~1.1.0",
     "grunt-contrib-uglify": "~2.3.0",
     "grunt-contrib-watch": "~1.0.0",
-    "grunt-contrib-imagemin": "~1.0.1",
+    "grunt-contrib-imagemin": "~4.0.0",
     "grunt-svgmin": "~4.0.0",
     "grunt-imgcompress": "~0.1.1",
     "grunt-newer": "^1.2.0",
